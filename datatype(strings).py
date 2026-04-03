@@ -1,0 +1,17 @@
+# In this code we will be working on some data types
+ # String  datatypes
+j = "this python coursework is fundamental in today's work"
+k = "all roads lead to same destination"
+print(j)
+print(k)
+print(j[0:4],k)
+print(j[0:7])
+print(len(j))
+l = "an ish"
+print(len(l))
+print(j[::-1])
+print(j.find("python",0,15))
+print(j.replace("this", "The"))
+#Boolean Variable , either they have True or False value assignment
+a = True
+print(a)

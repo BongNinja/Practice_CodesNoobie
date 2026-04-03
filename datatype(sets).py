@@ -1,0 +1,10 @@
+#In this code we will be working with sets
+s_1 = {10,20,"Anish Chakraborty"}
+print(s_1)
+print(type(s_1))
+s_1.update([11,12])
+print(s_1)
+s_1.remove(10)
+print(s_1)
+s_2 = frozenset(s_1)
+print(s_2)
